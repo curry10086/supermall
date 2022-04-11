@@ -14,7 +14,7 @@ export default {
     #tab-bar{
         height: 49px;
         border-top: 1px solid #eee;
-        background: color #f6f6f6; 
+        background-color: #f6f6f6; 
 
         position: fixed;
         left: 0;
