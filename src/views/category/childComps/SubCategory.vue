@@ -2,7 +2,7 @@
   <div>
     <scroll class="content">
       <div class="sub-category">
-        <div class="sub-category-item" v-for="item in currentCategory">
+        <div class="sub-category-item" v-for="(item,index) in currentCategory" :key="index">
           <a :href="item.link">
             <img :src="item.image" alt="">
             <p>{{ item.title }}</p>
